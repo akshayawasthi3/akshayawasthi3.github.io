@@ -45,7 +45,7 @@ ul.side-nav.fixed a {
 	color: #444;
 	display: block;
 	line-height: 100%;
-	padding: 10px 0 12px;
+	padding: 10px 0 30px;
 }
 ul.table-of-contents li.logo a.active,
 ul.table-of-contents li.logo a:hover {
@@ -101,7 +101,7 @@ h3 {
 	height: 100vh;
 }
 #intro.section {
-	background: url(../img/image.JPG) no-repeat top center/cover;
+	background: url(../img/image.jpg) no-repeat top center/cover;
 	position: relative;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -283,6 +283,11 @@ a.hoverline:hover {
 	overflow-y: scroll;
 	width: 100%;
 }
+.SVG_img{
+	padding: 0 15px;
+    position: relative;
+    top: 5px;
+}
 .Dscrptn-hght {
    list-style: none;
    padding-left: 0px;
@@ -310,6 +315,9 @@ a.hoverline:hover {
  .Dscrptn-hght::-webkit-scrollbar-thumb:hover {
    background: #fff; 
  }
+ .CursorPointer{
+ 	cursor: pointer;
+ }
 small { display: none;}
 .grey-text {
 	color: #666 !important;
@@ -327,7 +335,7 @@ small { display: none;}
 }
 @media (max-width: 1360px) {
 	.card ul li {
-		font-size: 14px;
+		font-size: 16px;
 		line-height: 200%;
 		margin-left: 20px;
 	}
